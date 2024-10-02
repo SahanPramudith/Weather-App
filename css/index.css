@@ -1,0 +1,72 @@
+.body{
+    background-color: black;
+    background-image: url('../assert/1000_F_845676135_4KcfcTvhnzNzscvYrGC4BdkBqCayPKMq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.weather-details1{
+    display: flex;
+    flex-direction: row;
+
+}
+.curunt{
+    height: 250px;
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 0px;
+
+}
+
+.curunt-weather{
+    width: 200px;
+    height: 100px;
+}
+ .curunt-weather{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    /* height: 550px; */
+    backdrop-filter: blur(2px);
+    top: 200px;  
+}
+.forcast{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    height: 550px;
+    backdrop-filter: blur(8px);
+}
+.celsius{
+    display: flex;
+    flex-direction: column;
+    color: #f4f4f4;
+    font-size: 50px;
+
+    /* flex-wrap: wrap; */
+    
+}
+.cel{
+    margin-right: 5px;
+    font-weight: 200;    
+}
+.celsius-location{
+    margin-left: 10px;
+}
+.celsius-date{
+    position: relative;
+    bottom:10px ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid red;
+    width: 500px;
+    height: 100px;
+}
