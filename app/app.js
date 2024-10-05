@@ -62,7 +62,7 @@ function search() {
     
 }
 
-//--------------------------------------curunt- forcast sri lanka-----------------------------------
+//-------------------------------------defult-curunt- forcast sri lanka-----------------------------------
 let tblcuruntforcastboy = '';
 let tblforcast=document.getElementById('tblforcast')
 
